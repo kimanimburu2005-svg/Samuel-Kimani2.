@@ -1,11 +1,6 @@
-/**
- * Program to demonstrate Block Statement in Java
- * Student: Samuel Kimani
- * Student Number: 220237
- */
 public class BlockStatement {
     public static void main(String[] args) {
-        int studentNumber = 12345; // Student number: 12345
+        int studentNumber = 220237; 
 
         System.out.println("=====================================");
         System.out.println("BLOCK STATEMENT DEMONSTRATION");
@@ -18,7 +13,7 @@ public class BlockStatement {
             System.out.println("--- ENTERING THE BLOCK ---");
             
             int blockVariable = 50;
-            int sum = studentNumber + blockVariable; // studentNumber is accessible (it's in the same method scope)
+            int sum = studentNumber + blockVariable; 
             
             System.out.println("Block variable (declared inside block): " + blockVariable);
             System.out.println("Sum of Student Number (" + studentNumber + ") + Block Variable (" + blockVariable + ") = " + sum);
@@ -30,7 +25,6 @@ public class BlockStatement {
         System.out.println("Student Number is still accessible: " + studentNumber);
         System.out.println("Attempting to access blockVariable here would cause a compilation error!");
         
-        // System.out.println("Trying to access blockVariable outside: " + blockVariable);
         
         System.out.println("=====================================");
         System.out.println("Program finished. Variable scope demonstrated successfully.");
